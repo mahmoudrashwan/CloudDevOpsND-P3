@@ -11,8 +11,10 @@ pipeline {
             }
         }
         stage ('Upload to AWS') {
-            withAWS(credentials:'jenkins-aws') {
-                s3Upload(pathStyleAccessEnabled: true, payloadSigningEnabled: true, file:'index.html', bucket:'clouddevops-project3-green')
+            steps {
+                withAWS(credentials:'jenkins-aws') {
+                    s3Upload(pathStyleAccessEnabled: true, payloadSigningEnabled: true, file:'index.html', bucket:'clouddevops-project3-green')
+                }
             }
         }
     }
