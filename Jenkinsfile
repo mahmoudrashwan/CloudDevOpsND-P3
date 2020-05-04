@@ -10,6 +10,11 @@ pipeline {
                  '''
             }
         }
+        stage ('Lint html') {
+            steps {
+                sh 'tidy -q -e *.html'
+            }
+        }
         stage ('Upload to AWS') {
             steps {
                 withAWS(credentials:'jenkins-aws') {
