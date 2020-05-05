@@ -9,8 +9,10 @@ Automate Jenkins Pipeline
 - Stages based on Conditions
 - Automate pipeline to deploy project to AWS
 
-Github: https://github.com/mahmoudrashwan/CloudDevOpsND-P3
+Github:
+https://github.com/mahmoudrashwan/CloudDevOpsND-P3
 
-Live App: 
+Live App:
+http://d2ephh64dtpp16.cloudfront.net/
 
 Mahmoud Rashwan
