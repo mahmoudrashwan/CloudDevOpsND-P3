@@ -11,6 +11,6 @@ Automate Jenkins Pipeline
 
 Github: https://github.com/mahmoudrashwan/CloudDevOpsND-P3
 
-Live App:
+Live App: 
 
 Mahmoud Rashwan
